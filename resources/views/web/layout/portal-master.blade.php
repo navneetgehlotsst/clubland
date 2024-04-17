@@ -1,0 +1,5 @@
+@include('web.layout.portal-header')
+      @yield('content')
+@include('web.layout.portal-footer')
+  @yield('script')
+@include('web.layout.sweet_alerts')
